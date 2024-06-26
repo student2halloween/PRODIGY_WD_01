@@ -1,0 +1,133 @@
+.footer-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  border-top: 1px solid black;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer-top-socials i {
+  font-size: 25px;
+  margin-right: 13px;
+}
+
+.footer-main-content {
+  display: flex;
+  width: 75%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 5rem;
+}
+
+.footer-content-heading {
+  font-weight: 600;
+  font-size: 18px;
+  color: #02c39a;
+}
+
+.content-list .list-items {
+  list-style-type: none;
+  margin-top: 18px;
+  color: #87898c;
+}
+
+.footer-bottom {
+  display: flex;
+  height: 5vh;
+  padding: 10px 0;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #14213d;
+  color: #fff;
+  font-size: 15px;
+}
+.footer-bottom span {
+  font-size: 20px;
+}
+
+.footer-bottom-left {
+  flex: 1;
+  margin-left: 5%;
+}
+.footer-bottom-right {
+  flex: 1;
+}
+
+@media screen and (max-width: 998px) {
+  .footer {
+    font-size: 14px;
+  }
+
+  .footer-top-socials {
+    display: none;
+  }
+
+  .footer-bottom {
+    font-size: 14.5px;
+  }
+
+  .footer-content-heading {
+    font-size: 2rem;
+  }
+
+  .footer-content {
+    width: 40%;
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .footer-top {
+    font-size: 12px;
+    gap: 3rem;
+  }
+
+  .footer-content-heading {
+    font-size: 1.8rem;
+  }
+
+  .footer-top-socials i {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 635px) {
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .footer-bottom,
+  .footer-bottom span {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer-bottom {
+    font-size: 10px;
+    gap: 0px;
+    padding-top: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-content-heading {
+    font-size: 1.8rem;
+  }
+
+  .footer-content {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+}
